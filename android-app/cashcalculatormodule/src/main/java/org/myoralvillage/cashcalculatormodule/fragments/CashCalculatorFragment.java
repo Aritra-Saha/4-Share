@@ -473,4 +473,12 @@ public class CashCalculatorFragment extends Fragment {
         updateCountingTable();
         updateAppMode();
     }
+
+    public CurrencyScrollbarView getCurrencyScrollbarView() {
+        return currencyScrollbarView;
+    }
+
+    public CountingTableView getCountingTableView() {
+        return countingTableView;
+    }
 }
